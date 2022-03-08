@@ -1,9 +1,10 @@
 # rollstiffnesscontrol-enhancehandling-matlabsimulink
 Repository for Cranfield University, 2021 Automotive Mechatronics, Group Design Project Team 1, Topic : Roll Stiffness Control for Enhanced Handling of Performance Vehicles 
 
-Notes
-1. When testing or implementing new function, DO NOT commit directly to the main branch, DO create a new branch and start a new pull request, and later push the changes
-
+Standard/Preferred Practices
+1. When testing or implementing new function, DO NOT commit directly to the main branch, DO create a new branch and start a new pull request, and later push the changes. This is mandatory now for the protected "main" and "develop" brances, which will require a manual review before the pull request is approved to merge the changes to the original branch.
+2. Use lowercase and hyphen for naming on github, use uppercase only when it is a short hand for something. Try naming things following semantics, for example the name of this project follows the format projectname-projectpurpose-language, i.e. rollstiffnesscontrol-enhancehandling-matlabsimulink.
+3. For naming branches, follow this: yourgitname-originalbranchname-purposeofthisnewbranch, for example, this point is writtn under the branch CCTJB2-main-amendrootfoldercontent, and I try to only add or change things like the gitignore gitattributes and this README.md file in the root folder of the project, with respect to the main branch.
 
 Common Troubleshooting:
 1. "Updates were rejected because the remote contains work that you do hint: not have locally", pull from remote repo first before pushing for the first time.
