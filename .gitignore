@@ -95,3 +95,4 @@ octave-workspace
 **/*.log*
 **/*.tmp*
 **/*.info*
+**/*.0*
