@@ -1,4 +1,4 @@
-    function cmenv (varargin)		% -*- Mode: Fundamental -*-
+function cmenv (varargin)		% -*- Mode: Fundamental -*-
 % CMENV - Add CarMaker directories to the MATLAB search path.
 %
 
