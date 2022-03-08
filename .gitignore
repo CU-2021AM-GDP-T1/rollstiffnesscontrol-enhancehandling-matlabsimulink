@@ -87,3 +87,7 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+# Other extensions to Ignore for gitignore
+*.log
+*.tmp*
