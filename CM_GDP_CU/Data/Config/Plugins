@@ -1,0 +1,9 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Plugins 1
+FileCreator = CarMaker 10.2.1
+Environment.Generic =
+Environment.Generic.Info =
+Environment.Generic.Tags =
+VhclOperator.IPGOperator =
+VhclOperator.IPGOperator.Info =
+VhclOperator.IPGOperator.Tags =
