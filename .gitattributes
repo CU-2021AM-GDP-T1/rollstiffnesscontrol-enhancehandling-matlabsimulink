@@ -26,3 +26,7 @@
 *.pdf binary
 *.png binary
 *.xlsx binary
+
+
+## CarMaker binary file types
+*.roadgeo binary

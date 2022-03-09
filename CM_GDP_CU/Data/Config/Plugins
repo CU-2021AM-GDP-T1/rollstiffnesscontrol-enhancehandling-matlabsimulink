@@ -1,0 +1,18 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Plugins 1
+FileCreator = CarMaker 10.2.1
+VehicleControl.MyModel = 1
+VehicleControl.MyModel.Info = MyModel
+VehicleControl.MyModel.Tags =
+Environment.Generic =
+Environment.Generic.Info =
+Environment.Generic.Tags =
+VhclOperator.IPGOperator =
+VhclOperator.IPGOperator.Info =
+VhclOperator.IPGOperator.Tags =
+HydBrakeSystem.HydESP = 3
+HydBrakeSystem.HydESP.Info = HydESP
+HydBrakeSystem.HydESP.Tags =
+Aero.MyModel = 1
+Aero.MyModel.Info = MyModel
+Aero.MyModel.Tags =

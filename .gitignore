@@ -87,3 +87,16 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+# Extensions to Ignore for CarMaker
+**/*.roadgeo*
+
+# Other extensions to Ignore for gitignore
+**/*.log*
+**/*.tmp*
+**/*.info*
+**/*.0*
+
+
+#MATLAB PROJECT resources diretory to ignore
+resources/
