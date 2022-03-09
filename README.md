@@ -2,7 +2,8 @@
 Repository for Cranfield University, 2021 Automotive Mechatronics, Group Design Project Team 1, Topic : Roll Stiffness Control for Enhanced Handling of Performance Vehicles 
 
 ## Starting Information
-Resources for getting started with Version Control with MATLAB and SimulinkGet the remote GitHub repository cloned to your local folder
+Resources for getting started with Version Control with MATLAB and Simulink
+Get the remote GitHub repository cloned to your local folder
 Watch this video on how to do it, starting at 1m6s: https://youtu.be/O7A27uMduo0?t=66After 
 
 After cloning the project, you will see that the file are organized via a Project, within MATLAB, open the  PRJ file and make use of the functionalities shown in the below link.
