@@ -97,5 +97,6 @@ octave-workspace
 **/*.info*
 **/*.0*
 
-# MATLAB PROJECT resources folder to ignore
+
+#MATLAB PROJECT resources diretory to ignore
 resources/
