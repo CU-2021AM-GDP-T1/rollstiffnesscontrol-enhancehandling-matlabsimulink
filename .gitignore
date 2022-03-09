@@ -96,3 +96,6 @@ octave-workspace
 **/*.tmp*
 **/*.info*
 **/*.0*
+
+# MATLAB PROJECT resources folder to ignore
+resources/
