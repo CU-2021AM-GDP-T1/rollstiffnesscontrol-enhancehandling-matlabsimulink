@@ -16,7 +16,9 @@ See the branch relationships in "Insignts > Network"
 Also available here: https://github.com/CU-2021AM-GDP-T1/rollstiffnesscontrol-enhancehandling-matlabsimulink/network  
 
 Please also install git on your PC since some operations are not as convenient on the MATLAB GUI or Git GUI:  
-https://git-scm.com/downloads
+https://git-scm.com/downloads  
+
+Basic commands for git: https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/  
 
 ## Standard/Preferred Practices
 1. When testing or implementing new function, DO NOT commit directly to the main branch, DO create a new branch and start a new pull request, and later push the changes. This is mandatory now for the protected "main" and "develop" brances, which will require a manual review before the pull request is approved to merge the changes to the original branch.
