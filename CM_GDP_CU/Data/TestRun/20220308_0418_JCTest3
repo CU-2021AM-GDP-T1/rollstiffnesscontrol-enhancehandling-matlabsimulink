@@ -1,6 +1,6 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = CarMaker-TestRun 10
-FileCreator = CarMaker for Simulink 10.2.1
+FileCreator = CarMaker 10.2.1
 Description:
 Vehicle = Demo_NoShell_DBX
 Trailer =
