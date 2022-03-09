@@ -10,6 +10,12 @@ After cloning the project, you will see that the file are organized via a Projec
 
 MATLAB and Simulink Projects: https://uk.mathworks.com/videos/matlab-and-simulink-projects-in-r2019a-1557464906514.html
 
+An older, but more detailed coverage on MATLAB and Simulink PROJECT, with more explanation on Git version control:
+https://www.youtube.com/watch?v=AJynESuE1dc
+
+See the branch relationships in "Insignts > Network"
+Also available here: https://github.com/CU-2021AM-GDP-T1/rollstiffnesscontrol-enhancehandling-matlabsimulink/network
+
 ## Standard/Preferred Practices
 1. When testing or implementing new function, DO NOT commit directly to the main branch, DO create a new branch and start a new pull request, and later push the changes. This is mandatory now for the protected "main" and "develop" brances, which will require a manual review before the pull request is approved to merge the changes to the original branch.
 2. Use lowercase and hyphen for naming on github, use uppercase only when it is a short hand for something. Try naming things following semantics, for example the name of this project follows the format projectname-projectpurpose-language, i.e. rollstiffnesscontrol-enhancehandling-matlabsimulink.
