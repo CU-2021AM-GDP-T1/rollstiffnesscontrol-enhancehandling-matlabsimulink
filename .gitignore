@@ -99,5 +99,8 @@ octave-workspace
 
 
 #MATLAB PROJECT resources diretory to ignore
-resources/
+#resources/ #this is needed for Simulink Projects to work properly, so we keep it version controlled
+**/SimOutput #Model check and other simulation outputs, not needed 
+**/SimOutput/** #Model check and other simulation outputs, not needed 
+**/.road_cache #IPGMovie road cache, not needed
 derived/
