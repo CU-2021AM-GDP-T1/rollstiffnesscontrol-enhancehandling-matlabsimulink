@@ -25,6 +25,6 @@
 extern real_T look1_pbinlcapw ( real_T u0 , const real_T bp0 [ ] , const
 real_T table [ ] , uint32_T prevIndex [ ] , uint32_T maxIndex ) ;
 #if defined(MULTITASKING)
-#error Models using the variable step solvers cannot define MULTITASKING
+#error Models using the variable step solvers cannot define MULTITASKING
 #endif
 #endif

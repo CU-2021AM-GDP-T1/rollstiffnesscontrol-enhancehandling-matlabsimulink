@@ -211,7 +211,7 @@ ssSetChecksumVal ( rtS , 0 , 2992278952U ) ; ssSetChecksumVal ( rtS , 1 ,
 3842139681U ) ; ssSetChecksumVal ( rtS , 2 , 2160823228U ) ; ssSetChecksumVal
 ( rtS , 3 , 1665553614U ) ; }
 #if defined(_MSC_VER)
-#pragma optimize( "", off )
+#pragma optimize( "", off )
 #endif
 SimStruct * raccel_register_model ( ssExecutionInfo * executionInfo ) {
 static struct _ssMdlInfo mdlInfo ; ( void ) memset ( ( char * ) rtS , 0 ,
@@ -354,7 +354,7 @@ rtS , mr_untitled_GetDWork ) ; slsaSetWorkFcnForSimTargetOP ( rtS ,
 mr_untitled_SetDWork ) ; rt_RapidReadMatFileAndUpdateParams ( rtS ) ; if (
 ssGetErrorStatus ( rtS ) ) { return rtS ; } return rtS ; }
 #if defined(_MSC_VER)
-#pragma optimize( "", on )
+#pragma optimize( "", on )
 #endif
 const int_T gblParameterTuningTid = 4 ; void MdlOutputsParameterSampleTime (
 int_T tid ) { MdlOutputsTID4 ( tid ) ; }

@@ -5,15 +5,15 @@
 #undef rt_offsetof
 #define rt_offsetof(s,el) ((uint16_T)(0xFFFF))
 #define TARGET_CONST
-#define TARGET_STRING(s) (s)    
+#define TARGET_STRING(s) (s)    
 #else
 #include "builtin_typeid_types.h"
 #include "untitled.h"
 #include "untitled_capi.h"
 #include "untitled_private.h"
 #ifdef LIGHT_WEIGHT_CAPI
-#define TARGET_CONST                  
-#define TARGET_STRING(s)               (NULL)                    
+#define TARGET_CONST                  
+#define TARGET_STRING(s)               (NULL)                    
 #else
 #define TARGET_CONST                   const
 #define TARGET_STRING(s)               (s)
