@@ -3,4 +3,4 @@
 
 SimOutput/** #CarMaker Simulation and Model Check Outputs
 Movie/.road_cache/ #CarMaker IPGMovie cache
-/*.txt #Text files from CarMaker updating CM project folder that is only under the current folder
+/Update* #Text files from CarMaker updating CM project folder that is only under the current folder
