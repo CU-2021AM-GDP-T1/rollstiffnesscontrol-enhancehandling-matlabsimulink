@@ -73,7 +73,7 @@ dkms.conf
 helpsearch*/
 
 # Simulink code generation folders
-slprj/
+#slprj/ #simlink code generation files
 sccprj/
 
 # Matlab code generation folders
@@ -83,7 +83,7 @@ codegen/
 *.autosave
 
 # Simulink cache files
-*.slxc
+#*.slxc #simlink cache files for faster simulation
 
 # Octave session info
 octave-workspace
