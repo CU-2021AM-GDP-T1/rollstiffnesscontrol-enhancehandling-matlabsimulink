@@ -1,0 +1,6 @@
+# Use this .gitignore file to maintain the folder Don't Ignore this file
+!.gitignore
+
+SimOutput/** #CarMaker Simulation and Model Check Outputs
+Movie/.road_cache/ #CarMaker IPGMovie cache
+Update* #Text files from CarMaker updating CM project folder
