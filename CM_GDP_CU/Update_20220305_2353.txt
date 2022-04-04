@@ -1,0 +1,305 @@
+Logfile - Project update to CarMaker 10.2.1
+===============================================================================
+
+Start: 2022-03-05 23:53:39
+
+Cleaning up temporary files...
+  Deleting temporary TestRun, Vehicle and Trailer files
+  Deleting temporary files in road cache
+  >> Finished.
+
+Creating source code backup ...
+  Plugins/MyBatteryCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyBatteryCU_FMU_20220305_2353.fmu
+  Plugins/MyBattery_FMU.fmu
+  -  Info: Copied file to Plugins/MyBattery_FMU_20220305_2353.fmu
+  Plugins/MyBrakeSrc_FMU.fmu
+  -  Info: Copied file to Plugins/MyBrakeSrc_FMU_20220305_2353.fmu
+  Plugins/MyBrake_FMU.fmu
+  -  Info: Copied file to Plugins/MyBrake_FMU_20220305_2353.fmu
+  Plugins/MyClutch_FMU.fmu
+  -  Info: Copied file to Plugins/MyClutch_FMU_20220305_2353.fmu
+  Plugins/MyDriveLineXWD_FMU.fmu
+  -  Info: Copied file to Plugins/MyDriveLineXWD_FMU_20220305_2353.fmu
+  Plugins/MyDriveLine_FMU.fmu
+  -  Info: Copied file to Plugins/MyDriveLine_FMU_20220305_2353.fmu
+  Plugins/MyEngineCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyEngineCU_FMU_20220305_2353.fmu
+  Plugins/MyEngine_FMU.fmu
+  -  Info: Copied file to Plugins/MyEngine_FMU_20220305_2353.fmu
+  Plugins/MyEnvironment_FMU.fmu
+  -  Info: Copied file to Plugins/MyEnvironment_FMU_20220305_2353.fmu
+  Plugins/MyGearBox_FMU.fmu
+  -  Info: Copied file to Plugins/MyGearBox_FMU_20220305_2353.fmu
+  Plugins/MyGeneric_FMU.fmu
+  -  Info: Copied file to Plugins/MyGeneric_FMU_20220305_2353.fmu
+  Plugins/MyMotorCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyMotorCU_FMU_20220305_2353.fmu
+  Plugins/MyMotor_FMU.fmu
+  -  Info: Copied file to Plugins/MyMotor_FMU_20220305_2353.fmu
+  Plugins/MyPTControlOSM_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTControlOSM_FMU_20220305_2353.fmu
+  Plugins/MyPTControl_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTControl_FMU_20220305_2353.fmu
+  Plugins/MyPTGenCoupling_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTGenCoupling_FMU_20220305_2353.fmu
+  Plugins/MyPowerSupply_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerSupply_FMU_20220305_2353.fmu
+  Plugins/MyPowerTrainXWD_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerTrainXWD_FMU_20220305_2353.fmu
+  Plugins/MyPowerTrain_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerTrain_FMU_20220305_2353.fmu
+  Plugins/MySteeringSrc_FMU.fmu
+  -  Info: Copied file to Plugins/MySteeringSrc_FMU_20220305_2353.fmu
+  Plugins/MySteering_FMU.fmu
+  -  Info: Copied file to Plugins/MySteering_FMU_20220305_2353.fmu
+  Plugins/MySteering_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySteering_FMU_20220305_2353.pluginfo
+  Plugins/MySuspExtForces_FMU.fmu
+  -  Info: Copied file to Plugins/MySuspExtForces_FMU_20220305_2353.fmu
+  Plugins/MyTireCPMod_FMU.fmu
+  -  Info: Copied file to Plugins/MyTireCPMod_FMU_20220305_2353.fmu
+  Plugins/MyTire_FMU.fmu
+  -  Info: Copied file to Plugins/MyTire_FMU_20220305_2353.fmu
+  Plugins/MyTransmCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyTransmCU_FMU_20220305_2353.fmu
+  Plugins/MyVehicleControl_FMU.fmu
+  -  Info: Copied file to Plugins/MyVehicleControl_FMU_20220305_2353.fmu
+  Plugins/MyVhclOperator_FMU.fmu
+  -  Info: Copied file to Plugins/MyVhclOperator_FMU_20220305_2353.fmu
+  src/.cproject
+  -  Info: Copied file to src/.cproject_20220305_2353
+  src/.project
+  -  Info: Copied file to src/.project_20220305_2353
+  src/.settings/language.settings.xml
+  -  Info: Copied file to src/.settings/language.settings_20220305_2353.xml
+  src/.settings/org.eclipse.cdt.core.prefs
+  -  Info: Copied file to src/.settings/org.eclipse.cdt.core_20220305_2353.prefs
+  src/BodyCtrl_RTW.mdl
+  -  Info: Copied file to src/BodyCtrl_RTW_20220305_2353.mdl
+  src/CM_Main.c
+  -  Info: Copied file to src/CM_Main_20220305_2353.c
+  src/CM_Vehicle.c
+  -  Info: Copied file to src/CM_Vehicle_20220305_2353.c
+  src/CarMaker.props
+  -  Info: Copied file to src/CarMaker_20220305_2353.props
+  src/CarMaker.vcxproj
+  -  Info: Copied file to src/CarMaker_20220305_2353.vcxproj
+  src/CarMakerInstall.vcxproj
+  -  Info: Copied file to src/CarMakerInstall_20220305_2353.vcxproj
+  src/ESP_RTW.mdl
+  -  Info: Copied file to src/ESP_RTW_20220305_2353.mdl
+  src/ExtraModels/AccelCtrl.c
+  -  Info: Copied file to src/ExtraModels/AccelCtrl_20220305_2353.c
+  src/ExtraModels/MyAero.c
+  -  Info: Copied file to src/ExtraModels/MyAero_20220305_2353.c
+  src/ExtraModels/MyBattery.c
+  -  Info: Copied file to src/ExtraModels/MyBattery_20220305_2353.c
+  src/ExtraModels/MyBatteryCU.c
+  -  Info: Copied file to src/ExtraModels/MyBatteryCU_20220305_2353.c
+  src/ExtraModels/MyBrake.c
+  -  Info: Copied file to src/ExtraModels/MyBrake_20220305_2353.c
+  src/ExtraModels/MyBrake_HydESPWrap.c
+  -  Info: Copied file to src/ExtraModels/MyBrake_HydESPWrap_20220305_2353.c
+  src/ExtraModels/MyCar.c
+  -  Info: Copied file to src/ExtraModels/MyCar_20220305_2353.c
+  src/ExtraModels/MyClutch.c
+  -  Info: Copied file to src/ExtraModels/MyClutch_20220305_2353.c
+  src/ExtraModels/MyCruiseIf.c
+  -  Info: Copied file to src/ExtraModels/MyCruiseIf_20220305_2353.c
+  src/ExtraModels/MyDriveLine.c
+  -  Info: Copied file to src/ExtraModels/MyDriveLine_20220305_2353.c
+  src/ExtraModels/MyDriveLineXWD.c
+  -  Info: Copied file to src/ExtraModels/MyDriveLineXWD_20220305_2353.c
+  src/ExtraModels/MyEngine.c
+  -  Info: Copied file to src/ExtraModels/MyEngine_20220305_2353.c
+  src/ExtraModels/MyEngineCU.c
+  -  Info: Copied file to src/ExtraModels/MyEngineCU_20220305_2353.c
+  src/ExtraModels/MyEnvironment.c
+  -  Info: Copied file to src/ExtraModels/MyEnvironment_20220305_2353.c
+  src/ExtraModels/MyGearBox.c
+  -  Info: Copied file to src/ExtraModels/MyGearBox_20220305_2353.c
+  src/ExtraModels/MyHydBrakeCU.c
+  -  Info: Copied file to src/ExtraModels/MyHydBrakeCU_20220305_2353.c
+  src/ExtraModels/MyModels.h
+  -  Info: Copied file to src/ExtraModels/MyModels_20220305_2353.h
+  src/ExtraModels/MyMotor.c
+  -  Info: Copied file to src/ExtraModels/MyMotor_20220305_2353.c
+  src/ExtraModels/MyMotorCU.c
+  -  Info: Copied file to src/ExtraModels/MyMotorCU_20220305_2353.c
+  src/ExtraModels/MyPTControl.c
+  -  Info: Copied file to src/ExtraModels/MyPTControl_20220305_2353.c
+  src/ExtraModels/MyPTControlOSM.c
+  -  Info: Copied file to src/ExtraModels/MyPTControlOSM_20220305_2353.c
+  src/ExtraModels/MyPTGenCoupling.c
+  -  Info: Copied file to src/ExtraModels/MyPTGenCoupling_20220305_2353.c
+  src/ExtraModels/MyPowerSupply.c
+  -  Info: Copied file to src/ExtraModels/MyPowerSupply_20220305_2353.c
+  src/ExtraModels/MyPowerTrain.c
+  -  Info: Copied file to src/ExtraModels/MyPowerTrain_20220305_2353.c
+  src/ExtraModels/MyPowerTrainXWD.c
+  -  Info: Copied file to src/ExtraModels/MyPowerTrainXWD_20220305_2353.c
+  src/ExtraModels/MySteering.c
+  -  Info: Copied file to src/ExtraModels/MySteering_20220305_2353.c
+  src/ExtraModels/MySuspEF_Buffer.c
+  -  Info: Copied file to src/ExtraModels/MySuspEF_Buffer_20220305_2353.c
+  src/ExtraModels/MySuspEF_Damper.c
+  -  Info: Copied file to src/ExtraModels/MySuspEF_Damper_20220305_2353.c
+  src/ExtraModels/MySuspEF_Spring.c
+  -  Info: Copied file to src/ExtraModels/MySuspEF_Spring_20220305_2353.c
+  src/ExtraModels/MySuspEF_Stabi.c
+  -  Info: Copied file to src/ExtraModels/MySuspEF_Stabi_20220305_2353.c
+  src/ExtraModels/MySuspExtForces.c
+  -  Info: Copied file to src/ExtraModels/MySuspExtForces_20220305_2353.c
+  src/ExtraModels/MySuspKnC.c
+  -  Info: Copied file to src/ExtraModels/MySuspKnC_20220305_2353.c
+  src/ExtraModels/MyTire.c
+  -  Info: Copied file to src/ExtraModels/MyTire_20220305_2353.c
+  src/ExtraModels/MyTireCPMod.c
+  -  Info: Copied file to src/ExtraModels/MyTireCPMod_20220305_2353.c
+  src/ExtraModels/MyTire_RTTireWrap.c
+  -  Info: Copied file to src/ExtraModels/MyTire_RTTireWrap_20220305_2353.c
+  src/ExtraModels/MyTransmCU.c
+  -  Info: Copied file to src/ExtraModels/MyTransmCU_20220305_2353.c
+  src/ExtraModels/MyVehicleControl.c
+  -  Info: Copied file to src/ExtraModels/MyVehicleControl_20220305_2353.c
+  src/ExtraModels/MyVhclOperator.c
+  -  Info: Copied file to src/ExtraModels/MyVhclOperator_20220305_2353.c
+  src/IO.c
+  -  Info: Copied file to src/IO_20220305_2353.c
+  src/IOVec.h
+  -  Info: Copied file to src/IOVec_20220305_2353.h
+  src/Makefile
+  -  Info: Copied file to src/Makefile_20220305_2353
+  src/README-UserVehicle_RTW.txt
+  -  Info: Copied file to src/README-UserVehicle_RTW_20220305_2353.txt
+  src/User.c
+  -  Info: Copied file to src/User_20220305_2353.c
+  src/User.h
+  -  Info: Copied file to src/User_20220305_2353.h
+  src/app_tmp.c
+  -  Info: Copied file to src/app_tmp_20220305_2353.c
+  src/cmenv.m
+  -  Info: Copied file to src/cmenv_20220305_2353.m
+  src/makefile.defs
+  -  Info: Copied file to src/makefile_20220305_2353.defs
+  src/tire_lin.c
+  -  Info: Copied file to src/tire_lin_20220305_2353.c
+  src_cm4sl/.cproject
+  -  Info: Copied file to src_cm4sl/.cproject_20220305_2353
+  src_cm4sl/.project
+  -  Info: Copied file to src_cm4sl/.project_20220305_2353
+  src_cm4sl/.settings/language.settings.xml
+  -  Info: Copied file to src_cm4sl/.settings/language.settings_20220305_2353.xml
+  src_cm4sl/.settings/org.eclipse.cdt.core.prefs
+  -  Info: Copied file to src_cm4sl/.settings/org.eclipse.cdt.core_20220305_2353.prefs
+  src_cm4sl/ACC.mdl
+  -  Info: Copied file to src_cm4sl/ACC_20220305_2353.mdl
+  src_cm4sl/AccelCtrl_ACC.mdl
+  -  Info: Copied file to src_cm4sl/AccelCtrl_ACC_20220305_2353.mdl
+  src_cm4sl/BodyCtrl.mdl
+  -  Info: Copied file to src_cm4sl/BodyCtrl_20220305_2353.mdl
+  src_cm4sl/CM_Main.c
+  -  Info: Copied file to src_cm4sl/CM_Main_20220305_2353.c
+  src_cm4sl/CM_Vehicle.c
+  -  Info: Copied file to src_cm4sl/CM_Vehicle_20220305_2353.c
+  src_cm4sl/HydBrakeCU_ESP.mdl
+  -  Info: Copied file to src_cm4sl/HydBrakeCU_ESP_20220305_2353.mdl
+  src_cm4sl/IO.c
+  -  Info: Copied file to src_cm4sl/IO_20220305_2353.c
+  src_cm4sl/IOVec.h
+  -  Info: Copied file to src_cm4sl/IOVec_20220305_2353.h
+  src_cm4sl/Makefile
+  -  Info: Copied file to src_cm4sl/Makefile_20220305_2353
+  src_cm4sl/PTBatteryCU.mdl
+  -  Info: Copied file to src_cm4sl/PTBatteryCU_20220305_2353.mdl
+  src_cm4sl/PTControl.mdl
+  -  Info: Copied file to src_cm4sl/PTControl_20220305_2353.mdl
+  src_cm4sl/PTEngineCU.mdl
+  -  Info: Copied file to src_cm4sl/PTEngineCU_20220305_2353.mdl
+  src_cm4sl/PTMotorCU.mdl
+  -  Info: Copied file to src_cm4sl/PTMotorCU_20220305_2353.mdl
+  src_cm4sl/PTTransmCU.mdl
+  -  Info: Copied file to src_cm4sl/PTTransmCU_20220305_2353.mdl
+  src_cm4sl/SingleTrack.mdl
+  -  Info: Copied file to src_cm4sl/SingleTrack_20220305_2353.mdl
+  src_cm4sl/SoftABS.mdl
+  -  Info: Copied file to src_cm4sl/SoftABS_20220305_2353.mdl
+  src_cm4sl/TractCtrl.mdl
+  -  Info: Copied file to src_cm4sl/TractCtrl_20220305_2353.mdl
+  src_cm4sl/User.c
+  -  Info: Copied file to src_cm4sl/User_20220305_2353.c
+  src_cm4sl/User.h
+  -  Info: Copied file to src_cm4sl/User_20220305_2353.h
+  src_cm4sl/UserBrake.mdl
+  -  Info: Copied file to src_cm4sl/UserBrake_20220305_2353.mdl
+  src_cm4sl/UserPowerTrain.mdl
+  -  Info: Copied file to src_cm4sl/UserPowerTrain_20220305_2353.mdl
+  src_cm4sl/UserSteer.mdl
+  -  Info: Copied file to src_cm4sl/UserSteer_20220305_2353.mdl
+  src_cm4sl/UserSteerTorque.mdl
+  -  Info: Copied file to src_cm4sl/UserSteerTorque_20220305_2353.mdl
+  src_cm4sl/UserTire.mdl
+  -  Info: Copied file to src_cm4sl/UserTire_20220305_2353.mdl
+  src_cm4sl/app_tmp.c
+  -  Info: Copied file to src_cm4sl/app_tmp_20220305_2353.c
+  src_cm4sl/cmenv.m
+  -  Info: Copied file to src_cm4sl/cmenv_20220305_2353.m
+  src_cm4sl/generic.mdl
+  -  Info: Copied file to src_cm4sl/generic_20220305_2353.mdl
+  src_cm4sl/generic_uservehicle.mdl
+  -  Info: Copied file to src_cm4sl/generic_uservehicle_20220305_2353.mdl
+  src_cm4sl/makefile.defs
+  -  Info: Copied file to src_cm4sl/makefile_20220305_2353.defs
+  src_cm4sl/CarMaker for Simulink.props
+  -  Info: Copied file to src_cm4sl/CarMaker for Simulink_20220305_2353.props
+  src_cm4sl/CarMaker for Simulink.vcxproj
+  -  Info: Copied file to src_cm4sl/CarMaker for Simulink_20220305_2353.vcxproj
+  123 source code files have been copied
+  >> Finished.
+
+Deleting old unmodified template files...
+  0 Files deleted, 0 errors occured
+  >> Finished.
+
+Copying new files to project directory...
+  277 Files copied, 0 errors occured
+  >> Finished.
+
+Converting Simulink models...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting FMUs...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting IPGRoad files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Vehicle files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Trailer files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Sensor files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Tire files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting configuration files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+-------------------------------------------------------------------------------
+Update finished successfully. No errors occured
+-------------------------------------------------------------------------------
+
+End: 2022-03-05 23:54:01
