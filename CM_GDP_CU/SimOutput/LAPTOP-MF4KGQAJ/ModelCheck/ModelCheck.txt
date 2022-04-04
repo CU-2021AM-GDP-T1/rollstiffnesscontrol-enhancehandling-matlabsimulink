@@ -1,0 +1,440 @@
+#############################################################################
+# Vehicle Characteristics in Design Configuration
+#############################################################################
+
+Creation Date     :  2022-03-25  11:33:06
+
+Parameter Sets
+
+Vehicle           :  .tmp_laptop-mf4kgqaj_jason.0
+Susp Front        :  Examples/McPherson_FrontAxle.skc
+Susp Rear         :  (vehicle parameter set)
+Tire front left   :  MF_285_40R22
+Tire front right  :  MF_285_40R22
+Tire rear left    :  MF_325_35R22
+Tire rear right   :  MF_325_35R22
+
+______________________________________________________________________________
+
+BASIC PARAMETERS         UNIT          TOTAL
+______________________________________________________________________________
+
+Total mass               kg           2586.000
+Total weight             N           25358.316
+Total roll inertia       kgm^2        1110.108
+Total pitch inertia      kgm^2        5161.141
+Total yaw inertia        kgm^2        5640.606
+Total CoG height (FrD)   m               0.609
+
+Sprung mass              kg           2245.000
+Sprung weight            N           22014.470
+Sprung roll inertia      kgm^2         850.000
+Sprung pitch inertia     kgm^2        4340.000
+Sprung yaw inertia       kgm^2        4600.000
+Sprung CoG height (FrD)  m               0.642
+
+Unsprung mass (total)    kg            341.000
+
+Wheelbase                m               3.060
+
+______________________________________________________________________________
+
+BASIC PARAMETERS         UNIT      AVERAGE/TOTAL       LEFT         RIGHT
+______________________________________________________________________________
+
+Front axle:
+
+Track width              m               1.684
+Toe Angle                deg             0.200          0.200         0.200
+Camber Angle             deg             0.000          0.000         0.000
+
+Caster Angle             deg             1.003          1.003         1.003
+Caster Offset            mm              5.788          5.788         5.788
+Kingpin Angle            deg            13.256         13.256        13.256
+Kingpin Offset           mm            -14.669        -14.669       -14.669
+
+Normal force             N           13333.583       6666.791      6666.791
+Loaded tire radius       m               0.371          0.371         0.371
+Tire rate                N/mm          263.000        263.000       263.000
+______________________________________________________________________________
+
+Rear axle:
+
+Track width              m               1.660
+Toe Angle                deg             0.115          0.115         0.115
+Camber Angle             deg            -1.490         -1.490        -1.490
+
+Normal force             N           12024.723       6012.361      6012.361
+Loaded tire radius       m               0.379          0.379         0.379
+Tire rate                N/mm          349.000        349.000       349.000
+______________________________________________________________________________
+
+
+
+### Geometry in Design Configuration
+
+                    :            x               y               z
+RefPointDesign      :            0.000 m         0.000 m         0.000 m  FrD
+VhclPoI             :            2.594 m         0.000 m         0.780 m  FrD
+                    :            2.594 m         0.000 m         0.780 m  Fr1
+
+GenBdy1 CoM         :            2.672 m         0.000 m         0.609 m  FrD
+                    :            2.672 m         0.000 m         0.609 m  Fr1
+
+ConBdy1A CoM        :            3.404 m         0.000 m         0.642 m  FrD
+                    :            3.404 m         0.000 m         0.642 m  Fr1
+
+ConBdy1B CoM        :            1.966 m         0.000 m         0.642 m  FrD
+                    :            1.966 m         0.000 m         0.642 m  Fr1
+
+JointFr1Fr1B        :            0.000 m         0.000 m         0.000 m  FrD
+                    :            0.000 m         0.000 m         0.000 m  Fr1
+
+Bdy1A CoM           :            3.404 m         0.000 m         0.642 m  FrD
+                    :            3.404 m         0.000 m         0.642 m  Fr1
+
+Bdy1B CoM           :            1.966 m         0.000 m         0.642 m  FrD
+                    :            1.966 m         0.000 m         0.642 m  Fr1
+
+BdyCab CoM          :            0.000 m         0.000 m         0.000 m  FrD
+                    :            0.000 m         0.000 m         0.000 m  Fr1
+
+BdyPlf CoM          :            0.000 m         0.000 m         0.000 m  FrD
+                    :            0.000 m         0.000 m         0.000 m  Fr1
+
+TrimLoadA CoM       :    -- not defined --
+
+TrimLoadB CoM       :    -- not defined --
+
+TrimLoadCab CoM     :    -- not defined --
+
+TrimLoadPlf CoM     :    -- not defined --
+
+LoadA CoM           :    -- not defined --
+
+LoadB CoM           :    -- not defined --
+
+LoadCab CoM         :    -- not defined --
+
+LoadPlf CoM         :    -- not defined --
+
+ WC FL              :            4.124 m         0.842 m         0.390 m  FrD
+                    :            4.124 m         0.842 m         0.390 m  Fr1
+
+ WC FR              :            4.124 m        -0.842 m         0.390 m  FrD
+                    :            4.124 m        -0.842 m         0.390 m  Fr1
+
+ WC RL              :            1.064 m         0.820 m         0.390 m  FrD
+                    :            1.064 m         0.820 m         0.390 m  Fr1
+
+ WC RR              :            1.064 m        -0.820 m         0.390 m  FrD
+                    :            1.064 m        -0.820 m         0.390 m  Fr1
+
+
+Hitch               :           -0.100 m         0.000 m         0.400 m  Fr1
+                                -0.099 m        -5.500 m         0.392 m  Fr0
+
+WheelBase (P)       :            3.060 m         (respective to ConBdy1)
+                         F:      1.440 m   F/WB: +0.470584
+                         R:     -1.620 m   R/WB: -0.529416
+TrackWidth (P)      :    F:      1.684 m
+                    :    R:      1.660 m
+
+AxleFz              :    F:   5827.409 N     RW:   5179.826 N  (per susp)
+                         F:  11654.818 N     RA:  10359.652 N  (per axle)
+AxleMass            :    F:   1188.539 kg     R:   1056.461 kg
+
+WheelBase (WC)      :            3.060 m         (respective to ConBdy1)
+                         F:      1.439 m   F/WB: +0.470261
+                         R:     -1.621 m   R/WB: -0.529739
+TrackWidth (WC)     :    F:      1.684 m
+                    :    R:      1.640 m
+
+AxleFz              :    F:   5830.962 N     RW:   5176.273 N  (per susp)
+                         F:  11661.923 N     RA:  10352.547 N  (per axle)
+AxleMass            :    F:   1189.264 kg     R:   1055.736 kg
+
+Red.Masses          :    F:    985.618 kg     R:    874.955 kg     C:    384.427 kg
+     total          :    m:   2245.000 kg     I:   4340.000 kg*m^2 (respective to ConBdy1)
+
+
+
+### Masses (kg) and Inertias (kgm^2), Fr1 (design configuration)
+
+GenBdy1         CoM :        2586 kg       2.672 m         0.000 m         0.609 m  Fr1
+                  I :                   1110.108          -0.000          -7.123
+                                          -0.000        5161.141          -0.000
+                                          -7.123          -0.000        5640.606
+ConBdy1         CoM :        2245 kg       2.685 m         0.000 m         0.642 m  Fr1
+                  I :                    850.000           0.000           0.000
+                                           0.000        4340.000           0.000
+                                           0.000           0.000        4600.000
+ A.ConBdy1      CoM :      1122.5 kg       3.404 m         0.000 m         0.642 m  Fr1
+                  I :                    425.000           0.000           0.000
+                                           0.000        1588.904           0.000
+                                           0.000           0.000        1718.904
+  A.Bdy1        CoM :      1122.5 kg       3.404 m         0.000 m         0.642 m  Fr1
+                  I :                    425.000           0.000           0.000
+                                           0.000        1588.904           0.000
+                                           0.000           0.000        1718.904
+  A.TrimLoad    CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+  A.Load        CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   A.Load0      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   A.Load1      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   A.Load2      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   A.Load3      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+ B.ConBdy1      CoM :      1122.5 kg       1.966 m         0.000 m         0.642 m  Fr1
+                  I :                    425.000           0.000           0.000
+                                           0.000        1588.904           0.000
+                                           0.000           0.000        1718.904
+  B.Bdy1        CoM :      1122.5 kg       1.966 m         0.000 m         0.642 m  Fr1
+                  I :                    425.000          -0.000          -0.000
+                                          -0.000        1588.904           0.000
+                                          -0.000           0.000        1718.904
+  B.TrimLoad    CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+  B.Load        CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   B.Load0      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   B.Load1      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   B.Load2      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+   B.Load3      CoM :           0 kg       0.000 m         0.000 m         0.000 m  Fr1
+                  I :                      0.000           0.000           0.000
+                                           0.000           0.000           0.000
+                                           0.000           0.000           0.000
+ CFL+Wheel      CoM :          85 kg       4.124 m         0.842 m         0.390 m  Fr1
+                  I :                      1.397           0.000           0.000
+                                           0.000           0.347           0.000
+                                           0.000           0.000           1.047
+ CFR+Wheel      CoM :          85 kg       4.124 m        -0.842 m         0.390 m  Fr1
+                  I :                      1.397           0.000           0.000
+                                           0.000           0.347           0.000
+                                           0.000           0.000           1.047
+ CRL+Wheel      CoM :        85.5 kg       1.064 m         0.820 m         0.390 m  Fr1
+                  I :                      1.505           0.000           0.000
+                                           0.000           0.355           0.000
+                                           0.000           0.000           1.035
+ CRR+Wheel      CoM :        85.5 kg       1.064 m        -0.820 m         0.390 m  Fr1
+                  I :                      1.505           0.000           0.000
+                                           0.000           0.355           0.000
+                                           0.000           0.000           1.035
+
+
+-------------------------------------------------------------------------------
+
+
+
+### PowerTrain.Kind = Generic
+
+### Engine.Kind = Mapping
+Engine.I =                 0.3500000
+
+### GearBox.Kind = Auto_Conv
+GearBox.I_in =             0.0010000
+GearBox.I_out =            0.0740000
+GearBox.Conv.I_in =        0.0100000
+GearBox.Conv.I_out =       0.0100000
+Ratio forward  gears [8]:    5.2500000   3.0300000   1.9500000   1.4600000   1.2200000   1.0000000   0.8100000   0.6700000
+Ratio backward gears [1]:   -4.0150000
+
+
+### DriveLine.Kind = Gen4WD
+
+DriveLine.FDiff.I_in =     0.0010000
+DriveLine.FDiff.I_out =    0.0010000
+DriveLine.FDiff.i_i2o =    3.3300000 (11.0889000)
+DriveLine.RDiff.I_in =     0.0010000
+DriveLine.RDiff.I_out =    0.0010000
+DriveLine.RDiff.i_i2o =    3.3300000 (11.0889000)
+DriveLine.CDiff.I_in =     0.0010000
+DriveLine.CDiff.I_fout =   0.0010000
+DriveLine.CDiff.I_rout =   0.0010000
+DriveLine.CDiff.i_i2o =    1.0000000 ( 1.0000000)
+DriveLine.CDiff.i_cent2front =  0.5000000
+DriveLine.CDiff.i_cent2rear =   0.5000000
+DriveLine.CDiff.i_front2rear =  1.0000000
+
+Wheel.FL.I =               1.0500000
+Wheel.FR.I =               1.0500000
+Wheel.RL.I =               1.1500000
+Wheel.RR.I =               1.1500000
+
+
+
+
+#############################################################################
+# Vehicle Characteristics in Equilibrium Configuration
+#############################################################################
+
+______________________________________________________________________________
+
+BASIC PARAMETERS         UNIT          TOTAL
+______________________________________________________________________________
+
+Total mass               kg           2586.000
+Total weight             N           25358.316
+Total roll inertia       kgm^2        1110.108
+Total pitch inertia      kgm^2        5161.143
+Total yaw inertia        kgm^2        5640.607
+Total CoG height (FrD)   m               0.609
+Total CoG height (Fr0)   m               0.593
+
+Sprung mass              kg           2245.000
+Sprung weight            N           22014.470
+Sprung roll inertia      kgm^2         850.000
+Sprung pitch inertia     kgm^2        4340.000
+Sprung yaw inertia       kgm^2        4600.000
+Sprung CoG height (FrD)  m               0.642
+Sprung CoG height (Fr0)  m               0.626
+
+Unsprung mass (total)    kg            341.000
+
+Wheelbase                m               3.060
+
+______________________________________________________________________________
+
+BASIC PARAMETERS         UNIT      AVERAGE/TOTAL       LEFT         RIGHT
+______________________________________________________________________________
+
+Front axle:
+
+Track width              m               1.684
+Toe Angle                deg             0.200          0.200         0.200
+Camber Angle             deg             0.000          0.000         0.000
+
+Caster Angle             deg             1.003          1.003         1.003
+Caster Offset            mm              5.789          5.789         5.789
+Kingpin Angle            deg            13.256         13.256        13.256
+Kingpin Offset           mm            -14.669        -14.669       -14.669
+
+Normal force             N           13333.589       6666.795      6666.795
+Loaded tire radius       m               0.371          0.371         0.371
+Tire rate                N/mm          263.000        263.000       263.000
+______________________________________________________________________________
+
+Rear axle:
+
+Track width              m               1.660
+Toe Angle                deg             0.115          0.115         0.115
+Camber Angle             deg            -1.490         -1.490        -1.490
+
+Normal force             N           12024.724       6012.362      6012.362
+Loaded tire radius       m               0.379          0.379         0.379
+Tire rate                N/mm          349.000        349.000       349.000
+______________________________________________________________________________
+
+
+Fr0                 :    frame absolut
+Fr1                 :    frame 1, vehicle frame
+FrW                 :    road tangential frame in tire contact point
+FrD                 :    design or input coordinate system
+Start-Off           :    in starting configuration, time=0
+GenBdy1             :    generalized body (total mass)
+ConBdy1             :    connected body (sprung mass)
+CoM                 :    center of mass, CoG
+PoA                 :    point of attack
+Mnt                 :    mount point (of suspension)
+
+
+
+### Geometry (equilibrium or start-off configuration)
+
+                    :            x               y               z
+VhclPoI             :            2.594 m         0.000 m         0.780 m  FrD
+                    :            2.594 m         0.000 m         0.780 m  Fr1
+                    :            2.596 m        -5.500 m         0.765 m  Fr0
+
+Fr1 Origin          :            0.000 m        -5.500 m        -0.009 m  Fr0
+Fr1 Roll            :            0.000 deg  Fr0.X
+Fr1 Pitch           :            0.150 deg  Fr0.Y
+Fr1 Yaw             :            0.000 deg  Fr0.Z
+
+
+GenBdy1             :            2.672 m        -0.000 m         0.609 m  FrD
+                    :            2.672 m        -0.000 m         0.609 m  Fr1
+                    :            2.674 m        -5.500 m         0.593 m  Fr0
+
+ConBdy1             :            2.685 m         0.000 m         0.642 m  FrD
+                    :            2.685 m         0.000 m         0.642 m  Fr1
+                    :            2.687 m        -5.500 m         0.626 m  Fr0
+
+                    :      FL              FR              RL              RR            
+carrier WC       tx :       4.1239999 m     4.1239999 m     1.0640000 m     1.0640000 m  FrD
+                 ty :       0.8419998 m    -0.8419998 m     0.8200000 m    -0.8200000 m  FrD
+                 tz :       0.3899953 m     0.3899953 m     0.3899990 m     0.3899990 m  FrD
+
+carrier WC       tx :       4.1239999 m     4.1239999 m     1.0640000 m     1.0640000 m  Fr1
+                 ty :       0.8419998 m    -0.8419998 m     0.8200000 m    -0.8200000 m  Fr1
+                 tz :       0.3899953 m     0.3899953 m     0.3899990 m     0.3899990 m  Fr1
+
+carrier WC       tx :       4.1250041 m     4.1250041 m     1.0650147 m     1.0650147 m  Fr0
+                 ty :      -4.6580002 m    -6.3419998 m    -4.6800000 m    -6.3200000 m  Fr0
+                 tz :       0.3706510 m     0.3706510 m     0.3786446 m     0.3786446 m  Fr0
+
+carrier Mnt      tx :      -0.0000001 m    -0.0000001 m     0.0000000 m     0.0000000 m  Fr1
+                 ty :      -0.0000002 m     0.0000002 m    -0.0000000 m     0.0000000 m  Fr1
+                 tz :      -0.0000047 m    -0.0000047 m    -0.0000010 m    -0.0000010 m  Fr1
+
+
+compression q0      :      -0.0000051 -    -0.0000051 -    -0.0000010 -    -0.0000010 -  
+coordinate q1       :       0.0000000 -     0.0000000 -    -0.0000010 -    -0.0000010 -  
+spring coord        :       0.1749872 m     0.1749872 m     0.0000010 m     0.0000010 m  
+spring free length[m]/
+StartCondParam[-]   :       0.3190343       0.3190343       0.0898098       0.0898098    
+damper coord        :       0.1750072 m     0.1750072 m     0.0000010 m     0.0000010 m  
+buffer coord        :       0.0000047 m     0.0000047 m     0.0000010 m     0.0000010 m  
+stabi coord         :      -0.0000044 -    -0.0000044 -    -0.0000010 -    -0.0000010 -  
+
+camber              :       0.0000841 deg    0.0000841 deg   -1.4896718 deg   -1.4896718 deg 
+                    :       0.0050458 min    0.0050456 min  -89.3803077 min  -89.3803081 min 
+
+toe                 :       0.1999973 deg    0.1999973 deg    0.1145857 deg    0.1145857 deg 
+                    :      11.9998405 min   11.9998357 min    6.8751406 min    6.8751407 min 
+
+spin                :       0.0000304 deg    0.0000303 deg   -0.0000724 deg   -0.0000724 deg 
+                    :       0.0018213 min    0.0018192 min   -0.0043451 min   -0.0043436 min 
+
+
+                    :      FL              FR              RL              RR            
+wheel center     Fx :      -17.4112 N       -17.4112 N       -15.7115 N       -15.7115 N   Fr1
+                 Fy :     -155.4671 N       155.4671 N      -140.7509 N       140.7509 N   
+                 Fz :     6666.7703 N      6666.7704 N      6018.0330 N      6018.0331 N   
+
+wheel road       Fx :        0.0000 N         0.0000 N         0.0000 N         0.0000 N   FrW
+                 Fy :     -155.3966 N       155.3966 N      -297.1212 N       297.1212 N   
+                 Fz :     6666.7947 N      6666.7948 N      6012.3621 N      6012.3622 N   
+
+-------------------------------------------------------------------------------
+
+

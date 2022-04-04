@@ -1,0 +1,89 @@
+Logfile - Project update to CarMaker 10.2.1
+===============================================================================
+
+Start: 2022-03-09 14:05:05
+
+Cleaning up temporary files...
+  Deleting temporary TestRun, Vehicle and Trailer files
+  Deleting temporary files in road cache
+  >> Finished.
+
+Creating source code backup ...
+  src/.cproject
+  -  Info: Copied file to src/.cproject_20220309_1405
+  src/.project
+  -  Info: Copied file to src/.project_20220309_1405
+  src/.settings/org.eclipse.cdt.core.prefs
+  -  Info: Copied file to src/.settings/org.eclipse.cdt.core_20220309_1405.prefs
+  src/MySusp_Buffer_RTW.mdl
+  -  Info: Copied file to src/MySusp_Buffer_RTW_20220309_1405.mdl
+  src/MySusp_Damper_RTW.mdl
+  -  Info: Copied file to src/MySusp_Damper_RTW_20220309_1405.mdl
+  src/MySusp_ParasiticFriction_RTW.mdl
+  -  Info: Copied file to src/MySusp_ParasiticFriction_RTW_20220309_1405.mdl
+  src/MySusp_ParasiticStiffness_RTW.mdl
+  -  Info: Copied file to src/MySusp_ParasiticStiffness_RTW_20220309_1405.mdl
+  src/MySusp_Spring_RTW.mdl
+  -  Info: Copied file to src/MySusp_Spring_RTW_20220309_1405.mdl
+  src/MySusp_Stabi_RTW.mdl
+  -  Info: Copied file to src/MySusp_Stabi_RTW_20220309_1405.mdl
+  src/MyUserDriver_RTW.mdl
+  -  Info: Copied file to src/MyUserDriver_RTW_20220309_1405.mdl
+  src/makefile.defs
+  -  Info: Copied file to src/makefile_20220309_1405.defs
+  src_cm4sl/.cproject
+  -  Info: Copied file to src_cm4sl/.cproject_20220309_1405
+  src_cm4sl/.project
+  -  Info: Copied file to src_cm4sl/.project_20220309_1405
+  src_cm4sl/.settings/org.eclipse.cdt.core.prefs
+  -  Info: Copied file to src_cm4sl/.settings/org.eclipse.cdt.core_20220309_1405.prefs
+  src_cm4sl/makefile.defs
+  -  Info: Copied file to src_cm4sl/makefile_20220309_1405.defs
+  15 source code files have been copied
+  >> Finished.
+
+Deleting old unmodified template files...
+  0 Files deleted, 0 errors occured
+  >> Finished.
+
+Copying new files to project directory...
+  277 Files copied, 0 errors occured
+  >> Finished.
+
+Converting Simulink models...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting FMUs...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting IPGRoad files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Vehicle files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Trailer files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Sensor files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting Tire files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+Converting configuration files...
+  0 Files converted, 0 errors occured
+  >> Finished.
+
+-------------------------------------------------------------------------------
+Update finished successfully. No errors occured
+-------------------------------------------------------------------------------
+
+End: 2022-03-09 14:05:26
