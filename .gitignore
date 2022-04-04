@@ -103,5 +103,5 @@ octave-workspace
 **/SimOutput #Model check and other simulation outputs, not needed 
 **/SimOutput/** #Model check and other simulation outputs, not needed 
 **/.road_cache #IPGMovie road cache, not needed
-CM_GDP_CU/Update**.txt #exclude project Update folders
+CM_GDP_CU/Update*.txt #exclude project Update folders
 derived/
