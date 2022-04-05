@@ -20,3 +20,12 @@ git push
 ```
 
 ***
+## Pull (or Merge) changes from (another) branch even with committed local changes
+```
+git reset #uncommit the local changes  
+git stash #stash away uncomitted local changes  
+git merge main #merge updates from main branch to the current child (selected) branch
+git stash pop #pop back the uncomitted local changes
+git commit -m "comments" #commit local changes
+git push 
+```
