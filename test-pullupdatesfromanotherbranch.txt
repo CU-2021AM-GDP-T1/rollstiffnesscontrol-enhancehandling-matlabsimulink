@@ -1,5 +1,7 @@
 This document is created originally in CCTJB2-test-pullupdatesfromanotherbranch to test if pulling updates from another branch is possible.
 
+Time stamp 20220405_1512
+This line is created in main branch, to see if child branches can pull this update from main branch, after having the changes on the child branch
 
 
 Time stamp 20220405_1507
