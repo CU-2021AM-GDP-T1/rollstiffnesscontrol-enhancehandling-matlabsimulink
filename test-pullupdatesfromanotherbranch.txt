@@ -1,0 +1,6 @@
+This document is created originally in CCTJB2-test-pullupdatesfromanotherbranch to test if pulling updates from another branch is possible.
+
+
+
+Time stamp 20220405_1507
+For example after making updates in this branch, pull updates from main to this branch, and see if the two can merge
