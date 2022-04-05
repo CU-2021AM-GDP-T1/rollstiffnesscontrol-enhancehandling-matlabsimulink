@@ -6,7 +6,7 @@ To re-synchronise a branch with updates that have been made to the main branch o
 
 ```
 git checkout main  
-git checkout validator  
+git pull  
 git checkout validator  
 git merge main  
 git push  
