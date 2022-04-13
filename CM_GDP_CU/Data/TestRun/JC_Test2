@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 10
 FileCreator = CarMaker for Simulink 10.2.1
 Description:
-Vehicle = Examples/Demo_Volvo_XC90_T6AWD
+Vehicle = DBX_20220407_2323
 Trailer =
 Tire.0 =
 Tire.1 =
@@ -33,7 +33,7 @@ DrivMan.Init.OperatorState = drive
 DrivMan.VhclOperator.Kind = IPGOperator 1
 DrivMan.nDMan = 3
 DrivMan.0.TimeLimit = 30.0
-DrivMan.0.LongDyn = VelControl 100 0.0 1.0 0 1 0
+DrivMan.0.LongDyn = VelControl 100 0.0 1.0 0.0 1 0.0
 DrivMan.0.LatDyn = Driver 0
 DrivMan.1.TimeLimit = 30.0
 DrivMan.1.LongDyn = Driver 1 0 120

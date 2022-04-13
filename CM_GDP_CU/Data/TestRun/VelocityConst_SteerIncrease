@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 10
 FileCreator = CarMaker for Simulink 10.2.1
 Description:
-Vehicle = DBX_20220405_1105
+Vehicle = DBX_20220407_2323
 Trailer =
 Tire.0 =
 Tire.1 =
@@ -31,19 +31,16 @@ DrivMan.Init.LaneOffset = 0
 DrivMan.Init.OperatorActive = 1
 DrivMan.Init.OperatorState = drive
 DrivMan.VhclOperator.Kind = IPGOperator 1
-DrivMan.nDMan = 3
-DrivMan.0.Info = set speed
-DrivMan.0.TimeLimit = 50
-DrivMan.0.LongDyn = Driver 1 0 60
+DrivMan.nDMan = 2
+DrivMan.0.Info = set speed to 50
+DrivMan.0.TimeLimit = 30
+DrivMan.0.LongDyn = VelTransition 60 linear
 DrivMan.0.LatDyn = Driver 0
-DrivMan.1.Info = Give steering angle
-DrivMan.1.TimeLimit = 60
-DrivMan.1.LongDyn = VelControl 60 0.0 1.0 0.0 1 0.0
-DrivMan.1.LatDyn = Sinus 540 time 60 0.0 0.25 abs 1 0
+DrivMan.1.Info = Give steering angle at 15 deg/sec
+DrivMan.1.TimeLimit = 24
+DrivMan.1.LongDyn = VelTransition 60 linear
+DrivMan.1.LatDyn = Step 200 0.0 13.33 abs 1
 DrivMan.1.SteerMode = Angle
-DrivMan.2.TimeLimit = 30.0
-DrivMan.2.LongDyn = Driver 1 0
-DrivMan.2.LatDyn = Driver 0
 Traffic.IFF.FName =
 Traffic.IFF.Time.Name =
 Traffic.N = 0
@@ -153,8 +150,8 @@ Driver.Traffic.Overtake_Rate = 1
 Driver.Traffic.Overtake_dSpeedMin = 10
 Driver.Long.dtAccBrake = 0.5
 Driver.Long.axMax = 3.0
-Driver.Long.axMin = -4.0
-Driver.Long.ayMax = 4.0
+Driver.Long.axMin = -4
+Driver.Long.ayMax = 4
 Driver.Long.GGExp:
 	50 1.0 1.0
 Driver.Long.DevMax = 0.0

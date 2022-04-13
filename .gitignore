@@ -73,7 +73,7 @@ dkms.conf
 helpsearch*/
 
 # Simulink code generation folders
-#slprj/ #simlink code generation files
+slprj/ #simlink code generation files, ignore them as Matlab litters them everywhere
 sccprj/
 
 # Matlab code generation folders
@@ -83,7 +83,7 @@ codegen/
 *.autosave
 
 # Simulink cache files
-#*.slxc #simlink cache files for faster simulation
+*.slxc #simlink cache files for faster simulation, ignore them since Matlab litters slxc files whereever the current work directory is at
 
 # Octave session info
 octave-workspace
