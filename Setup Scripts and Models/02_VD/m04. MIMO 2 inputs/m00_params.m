@@ -17,7 +17,7 @@ Iz = 4600;
 M = 2500;
 mui_f = 85;
 mui_r = 85.5;
-mui = mui_f + mui_r; % Unsprung mass in left and right sides
+mui = mui_f + mu    i_r; % Unsprung mass in left and right sides
 mu_f = mui_f*2;
 mu_r = mui_r*2;
 mu = 2*(mui);
@@ -92,5 +92,7 @@ M_damp_r;
 
 % save params Cq_front Cq_rear Kq_front Kq_rear tw_F tw_R Mf Mr h_CoG M L a b 
 % save params2 mu_f mu_r ms_f ms_r hu h_RC
+
+save 1DoFRoll_Param.mat
 params =[mu_f mu_r ms_f ms_r hu h_RC tw_F tw_R a b M L];
 
