@@ -270,7 +270,7 @@ SuspF.Buf_Pull:
 	0.025 11690.0
 SuspF.Stabi.Kind = Hookean 1
 SuspF.Stabi.Amplify = 1.0
-SuspF.Stabi = 10000
+SuspF.Stabi = 90000
 SuspF.Kin.N = 1
 SuspF.Com.N = 0
 SuspF.Kin.0.FName = Examples/McPherson_FrontAxle.skc
@@ -356,7 +356,7 @@ SuspR.Buf_Pull:
 	0.03 15446.0
 SuspR.Stabi.Kind = Hookean 1
 SuspR.Stabi.Amplify = 1.0
-SuspR.Stabi = 10000
+SuspR.Stabi = 70000
 SuspR.Kin.N = 1
 SuspR.Com.N = 0
 SuspR.Kin.0.Kind = Linear2D 1

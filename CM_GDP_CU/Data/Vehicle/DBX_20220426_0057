@@ -1,6 +1,6 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = CarMaker-Car 10
-FileCreator = CarMaker 10.2.1
+FileCreator = CarMaker for Simulink 10.2.1
 
 
 ## Assembly ##############################################################
@@ -270,7 +270,7 @@ SuspF.Buf_Pull:
 	0.025 11690.0
 SuspF.Stabi.Kind = Hookean 1
 SuspF.Stabi.Amplify = 1.0
-SuspF.Stabi = 30000
+SuspF.Stabi = 90000
 SuspF.Kin.N = 1
 SuspF.Com.N = 0
 SuspF.Kin.0.FName = Examples/McPherson_FrontAxle.skc
@@ -356,7 +356,7 @@ SuspR.Buf_Pull:
 	0.03 15446.0
 SuspR.Stabi.Kind = Hookean 1
 SuspR.Stabi.Amplify = 1.0
-SuspR.Stabi = 14000
+SuspR.Stabi = 70000
 SuspR.Kin.N = 1
 SuspR.Com.N = 0
 SuspR.Kin.0.Kind = Linear2D 1
@@ -775,18 +775,43 @@ PowerTrain.Engine.FuelHeatValue = 11.3
 Sensor.Param.0.Name = SL_Param
 Sensor.Param.0.Type = SAngle
 Sensor.Param.0.File =
-Sensor.Param.1.Name = OB_Param_Radar
-Sensor.Param.1.Type = Object
+Sensor.Param.1.Name = IN_MntFL
+Sensor.Param.1.Type = Inertial
 Sensor.Param.1.File =
-Sensor.Param.1.UpdRate = 60
-Sensor.Param.1.FoV = 16.0 8.0
-Sensor.Param.1.CalcClass = NearestPoint
-Sensor.Param.1.Range = 150.0
-Sensor.Param.1.TObjQuants = 0
-Sensor.Param.1.TargetSelection = NearestInPath
-Sensor.Param.1.ObservRadius = 500.0
-Sensor.Param.1.CycleOffset = 0
-Sensor.Param.N = 2
+Sensor.Param.2.Name = IN_MntFR
+Sensor.Param.2.Type = Inertial
+Sensor.Param.2.File =
+Sensor.Param.3.Name = IN_MntRM
+Sensor.Param.3.Type = Inertial
+Sensor.Param.3.File =
+Sensor.Param.4.Name = IN_CoG
+Sensor.Param.4.Type = Inertial
+Sensor.Param.4.File =
+Sensor.Param.5.Name = IN_MntRL
+Sensor.Param.5.Type = Inertial
+Sensor.Param.5.File =
+Sensor.Param.6.Name = IN_MntRR
+Sensor.Param.6.Type = Inertial
+Sensor.Param.6.File =
+Sensor.Param.7.Name = IN_WhlFL
+Sensor.Param.7.Type = Inertial
+Sensor.Param.7.File =
+Sensor.Param.8.Name = IN_WhlFR
+Sensor.Param.8.Type = Inertial
+Sensor.Param.8.File =
+Sensor.Param.9.Name = IN_WhlRL
+Sensor.Param.9.Type = Inertial
+Sensor.Param.9.File =
+Sensor.Param.10.Name = IN_WhlRR
+Sensor.Param.10.Type = Inertial
+Sensor.Param.10.File =
+Sensor.Param.11.Name = IN_WhlML
+Sensor.Param.11.Type = Inertial
+Sensor.Param.11.File =
+Sensor.Param.12.Name = IN_WhlMR
+Sensor.Param.12.Type = Inertial
+Sensor.Param.12.File =
+Sensor.Param.N = 13
 Sensor.Comment:
 
 
@@ -795,16 +820,136 @@ SensorCluster.N = 0
 
 
 ## Sensor Instances ######################################################
-Sensor.N = 1
+Sensor.N = 13
 Sensor.0.name = SS00
 Sensor.0.rot = 0.0 0.0 0.0
-Sensor.0.pos = 2.567 0.0 0.73
+Sensor.0.pos = 2.685 0.0 0.642
 Sensor.0.Visualization = 1
 Sensor.0.VisColor = 0.0 0.0 0.0
 Sensor.0.Mounting = Fr1A
 Sensor.0.Active = 1
 Sensor.0.Ref.Param = 0
 Sensor.0.Ref.Cluster =
+Sensor.1.name = IN_WhlFL
+Sensor.1.rot = 0.0 0.0 0.0
+Sensor.1.pos = 4.124 0.8425 0.398
+Sensor.1.Visualization = 1
+Sensor.1.VisColor = 0.0 0.0 0.0
+Sensor.1.Mounting = Fr2FL
+Sensor.1.Active = 1
+Sensor.1.Ref.Param = 7
+Sensor.1.Ref.Cluster =
+Sensor.1.CalcClass = Global+Local
+Sensor.2.name = IN_WhlFR
+Sensor.2.rot = 0.0 0.0 0.0
+Sensor.2.pos = 4.124 -0.8425 0.398
+Sensor.2.Visualization = 1
+Sensor.2.VisColor = 0.0 0.0 0.0
+Sensor.2.Mounting = Fr2FR
+Sensor.2.Active = 1
+Sensor.2.Ref.Param = 8
+Sensor.2.Ref.Cluster =
+Sensor.2.CalcClass = Global+Local
+Sensor.3.name = IN_WhlML
+Sensor.3.rot = 0.0 0.0 0.0
+Sensor.3.pos = 2.685 0.8425 0.398
+Sensor.3.Visualization = 1
+Sensor.3.VisColor = 0.0 0.0 0.0
+Sensor.3.Mounting = Fr2FL
+Sensor.3.Active = 1
+Sensor.3.Ref.Param = 11
+Sensor.3.Ref.Cluster =
+Sensor.3.CalcClass = Global+Local
+Sensor.4.name = IN_WhlMR
+Sensor.4.rot = 0.0 0.0 0.0
+Sensor.4.pos = 2.685 -0.8425 0.398
+Sensor.4.Visualization = 1
+Sensor.4.VisColor = 0.0 0.0 0.0
+Sensor.4.Mounting = Fr2FR
+Sensor.4.Active = 1
+Sensor.4.Ref.Param = 12
+Sensor.4.Ref.Cluster =
+Sensor.4.CalcClass = Global+Local
+Sensor.5.name = IN_WhlRL
+Sensor.5.rot = 0.0 0.0 0.0
+Sensor.5.pos = 1.064 0.825 0.398
+Sensor.5.Visualization = 1
+Sensor.5.VisColor = 0.0 0.0 0.0
+Sensor.5.Mounting = Fr2RL
+Sensor.5.Active = 1
+Sensor.5.Ref.Param = 9
+Sensor.5.Ref.Cluster =
+Sensor.5.CalcClass = Global+Local
+Sensor.6.name = IN_WhlRR
+Sensor.6.rot = 0.0 0.0 0.0
+Sensor.6.pos = 1.064 -0.825 0.398
+Sensor.6.Visualization = 1
+Sensor.6.VisColor = 0.0 0.0 0.0
+Sensor.6.Mounting = Fr2RR
+Sensor.6.Active = 1
+Sensor.6.Ref.Param = 10
+Sensor.6.Ref.Cluster =
+Sensor.6.CalcClass = Global+Local
+Sensor.7.name = IN_MntRL
+Sensor.7.rot = 0.0 0.0 0.0
+Sensor.7.pos = 1.064 0.825 0.642
+Sensor.7.Visualization = 1
+Sensor.7.VisColor = 0.0 0.0 0.0
+Sensor.7.Mounting = Fr1A
+Sensor.7.Active = 1
+Sensor.7.Ref.Param = 5
+Sensor.7.Ref.Cluster =
+Sensor.7.CalcClass = Global+Local
+Sensor.8.name = IN_MntRR
+Sensor.8.rot = 0.0 0.0 0.0
+Sensor.8.pos = 1.064 -0.825 0.642
+Sensor.8.Visualization = 1
+Sensor.8.VisColor = 0.0 0.0 0.0
+Sensor.8.Mounting = Fr1A
+Sensor.8.Active = 1
+Sensor.8.Ref.Param = 6
+Sensor.8.Ref.Cluster =
+Sensor.8.CalcClass = Global+Local
+Sensor.9.name = IN_CoG
+Sensor.9.rot = 0.0 0.0 0.0
+Sensor.9.pos = 2.685 0.0 0.642
+Sensor.9.Visualization = 1
+Sensor.9.VisColor = 0.0 0.0 0.0
+Sensor.9.Mounting = Fr1A
+Sensor.9.Active = 1
+Sensor.9.Ref.Param = 4
+Sensor.9.Ref.Cluster =
+Sensor.9.CalcClass = Global+Local
+Sensor.10.name = IN_MntFL
+Sensor.10.rot = 0.0 0.0 0.0
+Sensor.10.pos = 4.124 0.8425 0.642
+Sensor.10.Visualization = 1
+Sensor.10.VisColor = 0.0 0.0 0.0
+Sensor.10.Mounting = Fr1A
+Sensor.10.Active = 1
+Sensor.10.Ref.Param = 1
+Sensor.10.Ref.Cluster =
+Sensor.10.CalcClass = Global+Local
+Sensor.11.name = IN_MntFR
+Sensor.11.rot = 0.0 0.0 0.0
+Sensor.11.pos = 4.124 -0.8425 0.642
+Sensor.11.Visualization = 1
+Sensor.11.VisColor = 0.0 0.0 0.0
+Sensor.11.Mounting = Fr1A
+Sensor.11.Active = 1
+Sensor.11.Ref.Param = 2
+Sensor.11.Ref.Cluster =
+Sensor.11.CalcClass = Global+Local
+Sensor.12.name = IN_MntRM
+Sensor.12.rot = 0.0 0.0 0.0
+Sensor.12.pos = 1.064 0.0 0.642
+Sensor.12.Visualization = 1
+Sensor.12.VisColor = 0.0 0.0 0.0
+Sensor.12.Mounting = Fr1A
+Sensor.12.Active = 1
+Sensor.12.Ref.Param = 3
+Sensor.12.Ref.Cluster =
+Sensor.12.CalcClass = Global+Local
 
 
 ## Vehicle Control #######################################################
@@ -854,6 +999,30 @@ Crypto.Show:
 	Sensor.N
 	Sensor.0.Active
 	Sensor.0.Ref.Cluster
+	Sensor.1.Active
+	Sensor.1.Ref.Cluster
+	Sensor.2.Active
+	Sensor.2.Ref.Cluster
+	Sensor.3.Active
+	Sensor.3.Ref.Cluster
+	Sensor.4.Active
+	Sensor.4.Ref.Cluster
+	Sensor.5.Active
+	Sensor.5.Ref.Cluster
+	Sensor.6.Active
+	Sensor.6.Ref.Cluster
+	Sensor.7.Active
+	Sensor.7.Ref.Cluster
+	Sensor.8.Active
+	Sensor.8.Ref.Cluster
+	Sensor.9.Active
+	Sensor.9.Ref.Cluster
+	Sensor.10.Active
+	Sensor.10.Ref.Cluster
+	Sensor.11.Active
+	Sensor.11.Ref.Cluster
+	Sensor.12.Active
+	Sensor.12.Ref.Cluster
 	SensorCluster.N
 Crypto.AllowAccess:
 	GenericPlugin

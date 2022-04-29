@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 10
 FileCreator = CarMaker for Simulink 10.2.1
 Description:
-Vehicle = DBX_20220407_2323
+Vehicle = DBX_20220426_0057
 Trailer =
 Tire.0 =
 Tire.1 =
@@ -38,7 +38,7 @@ DrivMan.0.LongDyn = VelTransition 60 linear
 DrivMan.0.LatDyn = Driver 0
 DrivMan.1.Info = Give steering angle at 15 deg/sec
 DrivMan.1.TimeLimit = 24
-DrivMan.1.LongDyn = VelTransition 60 linear
+DrivMan.1.LongDyn = VelControl 60 0.0 1.0 0.0 1 0.0
 DrivMan.1.LatDyn = Step 200 0.0 13.33 abs 1
 DrivMan.1.SteerMode = Angle
 Traffic.IFF.FName =

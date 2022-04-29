@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 10
 FileCreator = CarMaker for Simulink 10.2.1
 Description:
-Vehicle = DBX_20220407_2323
+Vehicle = DBX_20220426_0057
 Trailer =
 Tire.0 =
 Tire.1 =

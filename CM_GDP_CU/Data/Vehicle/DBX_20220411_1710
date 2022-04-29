@@ -813,7 +813,7 @@ SensorCluster.N = 0
 
 
 ## Sensor Instances ######################################################
-Sensor.N = 8
+Sensor.N = 7
 Sensor.0.name = SS00
 Sensor.0.rot = 0.0 0.0 0.0
 Sensor.0.pos = 2.685 0.0 0.642
@@ -883,16 +883,6 @@ Sensor.6.Active = 1
 Sensor.6.Ref.Param = 3
 Sensor.6.Ref.Cluster =
 Sensor.6.CalcClass = Global+Local
-Sensor.7.name = RadarL
-Sensor.7.rot = 0.0 0.0 0.0
-Sensor.7.pos = 5 0.0 0.5
-Sensor.7.Visualization = 1
-Sensor.7.VisColor = 0.0 0.0 1.0
-Sensor.7.Mounting = Fr1A
-Sensor.7.Active = 1
-Sensor.7.Ref.Param = 7
-Sensor.7.Ref.Cluster =
-Sensor.7.ExtMotion = 0
 
 
 ## Vehicle Control #######################################################
@@ -954,8 +944,6 @@ Crypto.Show:
 	Sensor.5.Ref.Cluster
 	Sensor.6.Active
 	Sensor.6.Ref.Cluster
-	Sensor.7.Active
-	Sensor.7.Ref.Cluster
 	SensorCluster.N
 Crypto.AllowAccess:
 	GenericPlugin

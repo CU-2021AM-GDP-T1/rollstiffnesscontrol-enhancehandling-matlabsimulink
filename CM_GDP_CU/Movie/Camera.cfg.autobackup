@@ -1,3 +1,36 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = IPGMovie-Camera 7
 FileCreator = IPGMovie 10.2.1 2021-12-14
+
+Camera.0.Name = DEFAULT #0:0
+Camera.0.Mode = MoveWithCar
+Camera.0.AttachedTo = Egocar
+Camera.0.Type = 0
+Camera.0.Lens = direct
+Camera.0.FlipMode = n
+Camera.0.SrcHDR16 = 0
+Camera.0.Pos = 0.0 0.0 0.0
+Camera.0.dist = 2.0
+Camera.0.rot = 0.0 0.0 -90.0
+Camera.0.FieldOfView = 50.0
+Camera.0.DistortionFile =
+Camera.0.ToneMappingFile =
+
+Camera.1.Name = DEFAULT (mod)
+Camera.1.Mode = MoveWithCar
+Camera.1.AttachedTo = Egocar
+Camera.1.Type = 0
+Camera.1.Lens = direct
+Camera.1.FlipMode = n
+Camera.1.SrcHDR16 = 0
+Camera.1.Pos = 0.0 0.0 0.0
+Camera.1.dist = 2.0
+Camera.1.rot = 0.0 0.0 -90.0
+Camera.1.FieldOfView = 50.0
+Camera.1.DistortionFile =
+Camera.1.ToneMappingFile =
+
+Calc.1 = rotxyz {} {} {}
+Calc.2 = rotxyz {} {} {}
+Calc.3 = rotxyz {} {} {}
+Calc.4 = rotxyz {} {} {}
